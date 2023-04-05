@@ -7,3 +7,8 @@ ex00/*
 !ex00/Makefile
 !ex00/main.cpp
 !ex00/whatever.hpp
+
+ex01/*
+!ex01/Makefile
+!ex01/main.cpp
+!ex01/iter.hpp
