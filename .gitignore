@@ -12,3 +12,8 @@ ex01/*
 !ex01/Makefile
 !ex01/main.cpp
 !ex01/iter.hpp
+
+ex02/*
+!ex02/Makefile
+!ex02/main.cpp
+!ex02/Array.tpp
