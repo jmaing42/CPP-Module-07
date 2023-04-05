@@ -1,5 +1,6 @@
-#include "iter.hpp"
 #include <iostream>
+
+#include "iter.hpp"
 
 void doWork(char *&item) { std::cout << item << std::endl; }
 
