@@ -45,6 +45,16 @@ public:
       throw std::exception();
     return this->array[index];
   };
+  volatile T &operator[](unsigned int index) volatile {
+    if (index >= this->length)
+      throw std::exception();
+    return this->array[index];
+  };
+  const volatile T &operator[](unsigned int index) const volatile {
+    if (index >= this->length)
+      throw std::exception();
+    return this->array[index];
+  };
 };
 
 #endif
