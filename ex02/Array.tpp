@@ -34,7 +34,7 @@ public:
     return *this;
   }
 
-  unsigned int getLength() const { return this->length; }
+  unsigned int size() const { return this->length; }
   T &operator[](unsigned int index) {
     if (index >= this->length)
       throw std::exception();

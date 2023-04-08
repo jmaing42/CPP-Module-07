@@ -4,8 +4,8 @@
 #include "Array.tpp"
 
 static void printArray(const Array<int> &array) {
-  std::cout << "length: " << array.getLength() << std::endl;
-  for (unsigned int i = 0; i < array.getLength(); i++) {
+  std::cout << "length: " << array.size() << std::endl;
+  for (unsigned int i = 0; i < array.size(); i++) {
     std::cout << "[" << i << "]: " << array[i] << std::endl;
   }
 }
