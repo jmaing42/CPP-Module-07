@@ -1,6 +1,7 @@
 #ifndef EX02_ARRAY_TPP_INCLUDED
 #define EX02_ARRAY_TPP_INCLUDED
 
+#include <cstddef>
 #include <exception>
 
 template <typename T> class Array {
@@ -10,7 +11,7 @@ private:
 
   void reallocate(unsigned int newSize) {
     delete[] this->array;
-    this->array = nullptr;
+    this->array = NULL;
     this->array = new T[newSize];
     this->length = newSize;
   }
